@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 1 999; /* This range represents the weight axis in variable fonts */
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 1 999; /* This range represents the weight axis in variable fonts */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+}
+#container1{
+  background-image:url('./Links/image-07.png');
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+
+}
+#container1::after{
+  content: '';
+  background-color: #ffffff78;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: auto;
+  
+ 
+
+}
+#container1::before{
+  content: "&";
+  position: absolute;
+  font-size: 500px;
+  top: 10%;
+  right: 0;
+  background-color: transparent;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.573);
+  height:100vh;
+}
+
+.heading{
+position: absolute;
+top: 47%;
+left: 20%;
+z-index: 1;
+}
+.heading h1{
+  font-size: 65px;
+}
+.heading_style{
+  color: red;
+}
+.container1Btn1{
+  padding: 10px 40px;
+  background-color: #fff;
+  color: red;
+  border: none;
+}
+.container1Btn2{
+  margin-top: 9px;
+  padding: 10px 40px;
+  background-color:rgb(117, 13, 13);
+  color:#fff;
+  border: none;
+}
+.sec2{
+ margin-top: 20px;
+ margin-bottom: 4em;
+ 
+}
+#sec_heading2{
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2em;
+}
+#sec_heading2 p{
+  margin-top: 15px;
+  color: black;
+  font-size: 16px;
+}
+#sec3{
+  margin-top:4em;
+  display: flex;
+  justify-content: center;
+  position: relative;
+ 
+}
+.sec3_card{
+  width: 23%;
+  height: 280px;
+  background-color: rgba(128, 128, 128, 0.087);
+  margin: 10px;
+  
+  
+
+  
+  
+}
+ .sec3_card img{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -10%;
+  margin-left: 10px;
+float: left;
+  
+}
+.sec3_title{
+  margin-left: 10em;
+}
+.sec3_title h1{
+ color: rgb(195, 35, 35);
+}
+.sec3_title h6{
+  color: gray;
+}
+.sec3_text{
+  margin-top: 4em;
+ margin-left: 10px;
+  border-left: 5px solid  rgb(195, 35, 35);
+}
+.sec3_text p{
+  margin-left: 10px;
+}
+.sec3btn{
+
+margin-top: 2em;
+margin-left: 2em;
+padding: 5px 80px;
+} 
+
+#sec5{
+  
+  background-color: rgba(169, 169, 169, 0.078);
+  margin: 20px 20px;
+}
+
+.sec5Imgs{
+display: flex;
+margin: 10px;
+justify-content: center;
+align-items: center;
+}
+.sec5Imgs img{
+margin-left: 10px;
+}
+.imgsize1{
+width: 300px;
+height: 100px;
+
+}
+.imgsize2{
+width:200px ;
+height: 100px;
+}
+.imgsize3{
+width: 170px;
+height: 120px;
+}
+#sec5Btn{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#sec5Btn button{
+padding: 3px 80px;
+}
+.sec6{
+background-color: gray;
+margin-top: 2em;
+}
+#container{
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+background-color: #fff;
+position: relative;
+overflow: hidden;
+
+}
+.banner_img {
+position: relative;
+   
+}
+
+.banner_img img {
+width: 513px; 
+display: block; 
+z-index: 1;
+}
+
+.banner_img::after {
+content: '';
+background-color: #ffffff78; 
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+z-index: 1; 
+
+}
+.banner_heading{
+position: absolute;
+  top: 61px;
+  left: 56px;
+  font-size: 29px;
+  z-index: 1;
+}
+.banner_heading button{
+padding: 3px 10px;
+}
+.sec7_heading{
+margin-top: 2em;
+margin-left: 53px;
+}
+.sec7_heading h1{
+font-size: 27px;
+color: red;
+}
+.sec7_heading p{
+margin: 20px 0px;
+font-size: 20px;
+}
+.sec8{
+margin-top: 4em;
+}
+.sec8_card{
+width: 50%;
+height: 220px;
+background-color: rgba(128, 128, 128, 0.294);
+margin: 0 4em;
+position: relative;
+}
+.sec8_img img{
+width: 100px;
+position: absolute;
+top: -18%;
+left: 0;
+}
+.sec8_title{
+margin-left: 7em;
+}
+.sec8_title h1{
+color: red;
+}
+.sec8_title h6{
+color: gray;
+font-size: 15px;
+}
+.sec8_text{
+margin-top: 20px;
+margin-left: 17px;
+position: relative;
+}
+.sec8_text::after{
+content: "";
+border-left: 5px solid rgb(150, 13, 13);
+height: 74px;
+position: absolute;
+top: 0;
+left: -4%;
+}
+.sec8_btn{
+margin-top: 20px;
+}
+.sec8_btn button{
+padding: 5px 47px;
+margin: 0 2em;
+}
+.sec9{
+margin-top: 2em ;
+margin-left: 53px;
+}
+.sec9_heading h1{
+color: red;
+}
+.sec9_heading p{
+margin-top: 20px;
+font-size: 20px;
+}
+.sec9_img{
+margin-top: 2em;
+}
+.sec9_btn button{
+padding: 5px 165px;
+margin: 10px 0;
+}
